@@ -34,6 +34,20 @@
                ReferencedContainer = "container:Pollfish.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "369564DF23F17C910022C7D9"
+               BuildableName = "SHPollFishTests.xctest"
+               BlueprintName = "SHPollFishTests"
+               ReferencedContainer = "container:Framework/SHPollfish.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -50,6 +64,16 @@
                BuildableName = "PollFishUITests.xctest"
                BlueprintName = "PollFishUITests"
                ReferencedContainer = "container:Pollfish.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "369564DF23F17C910022C7D9"
+               BuildableName = "SHPollFishTests.xctest"
+               BlueprintName = "SHPollFishTests"
+               ReferencedContainer = "container:Framework/SHPollfish.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		36603E0823ECDC4B00578CD2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36603E0723ECDC4B00578CD2 /* FirstViewController.swift */; };
 		369564F323F17D470022C7D9 /* PollFishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369564F223F17D470022C7D9 /* PollFishUITests.swift */; };
+		36D2C97D23FCBF8100C1A9F8 /* SHPollfish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D2C97A23FCBF7A00C1A9F8 /* SHPollfish.framework */; };
+		36D2C97E23FCBF8100C1A9F8 /* SHPollfish.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36D2C97A23FCBF7A00C1A9F8 /* SHPollfish.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		36DE520023EC7B6600306662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DE51FF23EC7B6600306662 /* AppDelegate.swift */; };
 		36DE520223EC7B6600306662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DE520123EC7B6600306662 /* SceneDelegate.swift */; };
 		36DE520923EC7B6800306662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36DE520823EC7B6800306662 /* Assets.xcassets */; };
@@ -23,6 +25,20 @@
 			remoteGlobalIDString = 36DE51FB23EC7B6600306662;
 			remoteInfo = Polish;
 		};
+		36D2C97923FCBF7A00C1A9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D2C97423FCBF7A00C1A9F8 /* SHPollfish.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 368D4E7523EDA05A00336846;
+			remoteInfo = SHPollfish;
+		};
+		36D2C97B23FCBF7A00C1A9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D2C97423FCBF7A00C1A9F8 /* SHPollfish.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 369564E023F17C910022C7D9;
+			remoteInfo = SHPollFishTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +48,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				36D2C97E23FCBF8100C1A9F8 /* SHPollfish.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,6 +60,7 @@
 		369564F023F17D470022C7D9 /* PollFishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PollFishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		369564F223F17D470022C7D9 /* PollFishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollFishUITests.swift; sourceTree = "<group>"; };
 		369564F423F17D470022C7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D2C97423FCBF7A00C1A9F8 /* SHPollfish.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SHPollfish.xcodeproj; path = Framework/SHPollfish.xcodeproj; sourceTree = "<group>"; };
 		36DE51FC23EC7B6600306662 /* Pollfish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollfish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36DE51FF23EC7B6600306662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36DE520123EC7B6600306662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D2C97D23FCBF8100C1A9F8 /* SHPollfish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +91,7 @@
 		368D4E8623EDA94D00336846 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				36D2C97423FCBF7A00C1A9F8 /* SHPollfish.xcodeproj */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,6 +103,15 @@
 				369564F423F17D470022C7D9 /* Info.plist */,
 			);
 			path = PollFishUITests;
+			sourceTree = "<group>";
+		};
+		36D2C97523FCBF7A00C1A9F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36D2C97A23FCBF7A00C1A9F8 /* SHPollfish.framework */,
+				36D2C97C23FCBF7A00C1A9F8 /* SHPollFishTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		36DE51F323EC7B6600306662 = {
@@ -186,6 +215,12 @@
 			mainGroup = 36DE51F323EC7B6600306662;
 			productRefGroup = 36DE51FD23EC7B6600306662 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 36D2C97523FCBF7A00C1A9F8 /* Products */;
+					ProjectRef = 36D2C97423FCBF7A00C1A9F8 /* SHPollfish.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				36DE51FB23EC7B6600306662 /* Pollfish */,
@@ -193,6 +228,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		36D2C97A23FCBF7A00C1A9F8 /* SHPollfish.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SHPollfish.framework;
+			remoteRef = 36D2C97923FCBF7A00C1A9F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36D2C97C23FCBF7A00C1A9F8 /* SHPollFishTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SHPollFishTests.xctest;
+			remoteRef = 36D2C97B23FCBF7A00C1A9F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		369564EE23F17D470022C7D9 /* Resources */ = {
