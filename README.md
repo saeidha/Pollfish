@@ -27,9 +27,24 @@ $ git clone https://github.com/saeidha/Pollfish.git
 Open the Pollfish.xcodeproj Xcode project.
 
 
-## Running the tests
+# Running the tests
 
-## Testing
+### Running
+
+* Running Your App in the Simulator or on a Device
+
+After clean the project, you can build and run your app on a simulated or real device. You may connect a real device to your Mac using a cable, or for iOS, connect it over WiFi after you pair it with Xcode.
+
+* Step1- Open the Pollfish xCode project > Go to Pollfish > Select Pollfish in Target Tab > Go to the General tab and rename bundle identifier > Go to Signing & Capabilities tab and select your team.
+
+* Step2- Choose Pollfish scheme, then click the Run button in the toolbar.
+
+* Step3- Select a Simulated Device Or a Real Device
+
+For iOS, you can choose a simulated device or real Device, under [Platform] Simulators, from the run destination menu next to the scheme menu in the toolbar.
+
+
+### Testing
 
 Using the Test Navigator
 When you hold the pointer over a bundle, class, or method name in the test navigator, a Run button appears. You can run one test, all the tests in a class, or all the tests in a bundle depending on where you hold the pointer in the test navigator list.
@@ -52,14 +67,6 @@ Add additional notes about how to deploy this on a live system
 
 * [SHPollfish](https://github.com/saeidha/SHPollfish) - My framework
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-* **Saied Hosseinabadi** - *Initial work* - [PurpleBooth](https://github.com/saeidha)
+* **Saied Hosseinabadi** - *Initial work* - [Profile](https://github.com/saeidha)
