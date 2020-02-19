@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36603E0823ECDC4B00578CD2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36603E0723ECDC4B00578CD2 /* FirstViewController.swift */; };
+		369564F323F17D470022C7D9 /* PollFishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369564F223F17D470022C7D9 /* PollFishUITests.swift */; };
+		36DE520023EC7B6600306662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DE51FF23EC7B6600306662 /* AppDelegate.swift */; };
+		36DE520223EC7B6600306662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DE520123EC7B6600306662 /* SceneDelegate.swift */; };
+		36DE520923EC7B6800306662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36DE520823EC7B6800306662 /* Assets.xcassets */; };
+		36DE520C23EC7B6800306662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36DE520A23EC7B6800306662 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		369564F523F17D470022C7D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DE51F423EC7B6600306662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36DE51FB23EC7B6600306662;
+			remoteInfo = Polish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36D2C96323FCB88600C1A9F8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		36603E0723ECDC4B00578CD2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		369564F023F17D470022C7D9 /* PollFishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PollFishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		369564F223F17D470022C7D9 /* PollFishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollFishUITests.swift; sourceTree = "<group>"; };
+		369564F423F17D470022C7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36DE51FC23EC7B6600306662 /* Pollfish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollfish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DE51FF23EC7B6600306662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36DE520123EC7B6600306662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		36DE520823EC7B6800306662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36DE520B23EC7B6800306662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36DE520D23EC7B6800306662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		369564ED23F17D470022C7D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DE51F923EC7B6600306662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		368D4E8623EDA94D00336846 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		369564F123F17D470022C7D9 /* PollFishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				369564F223F17D470022C7D9 /* PollFishUITests.swift */,
+				369564F423F17D470022C7D9 /* Info.plist */,
+			);
+			path = PollFishUITests;
+			sourceTree = "<group>";
+		};
+		36DE51F323EC7B6600306662 = {
+			isa = PBXGroup;
+			children = (
+				36DE51FE23EC7B6600306662 /* Pollfish */,
+				369564F123F17D470022C7D9 /* PollFishUITests */,
+				36DE51FD23EC7B6600306662 /* Products */,
+				368D4E8623EDA94D00336846 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36DE51FD23EC7B6600306662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36DE51FC23EC7B6600306662 /* Pollfish.app */,
+				369564F023F17D470022C7D9 /* PollFishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36DE51FE23EC7B6600306662 /* Pollfish */ = {
+			isa = PBXGroup;
+			children = (
+				36DE51FF23EC7B6600306662 /* AppDelegate.swift */,
+				36DE520123EC7B6600306662 /* SceneDelegate.swift */,
+				36DE520823EC7B6800306662 /* Assets.xcassets */,
+				36DE520A23EC7B6800306662 /* LaunchScreen.storyboard */,
+				36DE520D23EC7B6800306662 /* Info.plist */,
+				36603E0723ECDC4B00578CD2 /* FirstViewController.swift */,
+			);
+			path = Pollfish;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		369564EF23F17D470022C7D9 /* PollFishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369564FD23F17D470022C7D9 /* Build configuration list for PBXNativeTarget "PollFishUITests" */;
+			buildPhases = (
+				369564EC23F17D470022C7D9 /* Sources */,
+				369564ED23F17D470022C7D9 /* Frameworks */,
+				369564EE23F17D470022C7D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				369564F623F17D470022C7D9 /* PBXTargetDependency */,
+			);
+			name = PollFishUITests;
+			productName = PollFishUITests;
+			productReference = 369564F023F17D470022C7D9 /* PollFishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		36DE51FB23EC7B6600306662 /* Pollfish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36DE521023EC7B6800306662 /* Build configuration list for PBXNativeTarget "Pollfish" */;
+			buildPhases = (
+				36DE51F823EC7B6600306662 /* Sources */,
+				36DE51F923EC7B6600306662 /* Frameworks */,
+				36DE51FA23EC7B6600306662 /* Resources */,
+				36D2C96323FCB88600C1A9F8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pollfish;
+			productName = Polish;
+			productReference = 36DE51FC23EC7B6600306662 /* Pollfish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36DE51F423EC7B6600306662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Saeid Hosseinabadi";
+				TargetAttributes = {
+					369564EF23F17D470022C7D9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 36DE51FB23EC7B6600306662;
+					};
+					36DE51FB23EC7B6600306662 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 36DE51F723EC7B6600306662 /* Build configuration list for PBXProject "Pollfish" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36DE51F323EC7B6600306662;
+			productRefGroup = 36DE51FD23EC7B6600306662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36DE51FB23EC7B6600306662 /* Pollfish */,
+				369564EF23F17D470022C7D9 /* PollFishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		369564EE23F17D470022C7D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DE51FA23EC7B6600306662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DE520C23EC7B6800306662 /* LaunchScreen.storyboard in Resources */,
+				36DE520923EC7B6800306662 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		369564EC23F17D470022C7D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369564F323F17D470022C7D9 /* PollFishUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DE51F823EC7B6600306662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DE520023EC7B6600306662 /* AppDelegate.swift in Sources */,
+				36DE520223EC7B6600306662 /* SceneDelegate.swift in Sources */,
+				36603E0823ECDC4B00578CD2 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		369564F623F17D470022C7D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36DE51FB23EC7B6600306662 /* Pollfish */;
+			targetProxy = 369564F523F17D470022C7D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36DE520A23EC7B6800306662 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36DE520B23EC7B6800306662 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		369564F723F17D470022C7D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C39Z56L8R;
+				INFOPLIST_FILE = PollFishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saeed.PollFishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pollfish;
+			};
+			name = Debug;
+		};
+		369564F823F17D470022C7D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C39Z56L8R;
+				INFOPLIST_FILE = PollFishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saeed.PollFishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pollfish;
+			};
+			name = Release;
+		};
+		36DE520E23EC7B6800306662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36DE520F23EC7B6800306662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36DE521123EC7B6800306662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C39Z56L8R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pollfish",
+				);
+				INFOPLIST_FILE = Pollfish/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saeed.Pollfish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36DE521223EC7B6800306662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C39Z56L8R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pollfish",
+				);
+				INFOPLIST_FILE = Pollfish/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saeed.Pollfish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		369564FD23F17D470022C7D9 /* Build configuration list for PBXNativeTarget "PollFishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369564F723F17D470022C7D9 /* Debug */,
+				369564F823F17D470022C7D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36DE51F723EC7B6600306662 /* Build configuration list for PBXProject "Pollfish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DE520E23EC7B6800306662 /* Debug */,
+				36DE520F23EC7B6800306662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36DE521023EC7B6800306662 /* Build configuration list for PBXNativeTarget "Pollfish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DE521123EC7B6800306662 /* Debug */,
+				36DE521223EC7B6800306662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36DE51F423EC7B6600306662 /* Project object */;
+}
